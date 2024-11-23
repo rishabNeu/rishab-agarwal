@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Shivani</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Qualifications
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-file-check-alt nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certifications" class="nav__link">
+                                <i class="uil uil-user-square nav__icon"></i> Certifications
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contactme
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme Change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/shivani-shah612/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://github.com/ShivaniShah06" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                    <image class="home__blob-img" xlink:href="assets/img/First.png"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I am Shivani</h1>
+                            <h3 class="home__subtitle">Site Reliability Engineer</h3>
+                            <p class="home__description">Proficient in leveraging strong technical skills, fostering collaboration, adept problem-solving, driving automation, 
+                                and committed to continuous learning.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/ShivaniShah.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">Site Reliability Engineer, with extensive knowledge and 3.5+ years of experience, working on monitoring, troubleshooting, and optimizing systems, 
+                            aiming to achieve high availability and seamless user experiences.</p>
+
+                            <div class="about__info">
+                                <div>
+                                    <span class="about__info-title">3.5+</span>
+                                    <span class="about__info-name">Years <br> experience</span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title">03+</span>
+                                    <span class="about__info-name">Completed <br> certifications</span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title">01</span>
+                                    <span class="about__info-name">Companies <br> worked</span>
+                                </div>
+                            </div>
+
+                            <div class="about__buttons">
+                                <a download="" href="assets/pdf/Shivani Shah.pdf" class="button button--flex">
+                                    Download Resume<i class="uil uil-download-alt button__icon"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Languages & OS</h1>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Python</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">SQL</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">SPL (Splunk's scripting language)</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Java</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Linux</h3> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-object-group skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Tools/Platforms</h1>                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Splunk</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">AWS</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Git</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Kubernetes</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Puppet</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Jenkins</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Terraform</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">SQL Server Management Studio</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Thruk/Nagios</h3> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-channel skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Working Practices</h1>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">Agile (scrum)</h3> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills__name">CI/CD</h3> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualifications</h2>
+                <span class="section__subtitle">My personal journey timeline</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target='#work'>
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target='#leadership'>
+                            <i class="uil uil-user-nurse qualification__icon"></i>
+                            Leadership
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">BEng - Electronic & Communication Engineering</h3>
+                                    <span class="qualification__subtitle">Gujarat Technological University - India</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        August 2015 - June 2019
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!--span class="qualification__line"></span> -->
+                                </div>
+                                
+                                <div>
+                                    <h3 class="qualification__title">MS - Information Systems</h3>
+                                    <span class="qualification__subtitle">Northeastern University - United States</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        September 2022 - May 2024
+                                    </div>
+                                    <div class="qualification__subjects">
+                                        Relevant Courses: Data Science Engineering Methods & Tools,
+                                                          Program Structures & Algorithms, Planning & Managing Information Systems,
+                                                          Data Management & Database Design
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Software Intern</h3>
+                                    <span class="qualification__subtitle">Crest Data Systems - India</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        March 2019 - June 2019
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Developed basic understanding and practical experience of tools, technologies, and platforms used to build, deploy, and manage platforms across hybrid multi-cloud infrastructure:
+                                        <div class="qualification__subdetail">
+                                            Splunk, AWS, Puppet, GitHub, Terraform, Ansible, Jira, Confluence
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                
+                                <div>
+                                    <h3 class="qualification__title">Junior Site Reliability Engineer</h3>
+                                    <span class="qualification__subtitle">Crest Data Systems - India</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        July 2019 - October 2020
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Orchestrated Splunk Architecture deployment using Terraform and Puppet, tailored to exact customer specifications in AWS cloud
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Executed diverse client projects, encompassing infrastructure enhancements, version upgrades, and seamless app/add-on installations and upgrades, all meticulously orchestrated during prescribed maintenance windows
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Proficiently harnessed monitoring tool Nagios/Thruk to maintain a vigilant watch over system health and performance
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Actively managed infrastructure configurations through Terraform & Puppet over Git, guaranteeing precision and control over key system elements
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Innovated and updated process documents, elevating the effectiveness of cloud operations
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">    
+                                <div>
+                                    <h3 class="qualification__title">Site Reliability Engineer</h3>
+                                    <span class="qualification__subtitle">Crest Data Systems - India</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        October 2019 - July 2022
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Played a pivotal role as a member of a cross-functional, customer-facing team spanning multiple countries, employing agile methodologies to achieve collective goals
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Managed, expanded, and fine-tuned core stack configurations, essential for analyzing and visualizing customer stack data
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Utilized GitLab for precise version control, ensuring the integrity of core stack configurations
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Developed and enhanced data analytics and visualization dashboards for improved insights
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Engineered alerts integrating Splunk, AWS, GitLab, and Thruk, enabling proactive monitoring of critical components on both Splunk and AWS platforms, utilizing predefined thresholds
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Employed regular expressions within Splunk to extract valuable fields from raw data
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Streamlined the ingestion of requested raw data into Splunk, enhancing data accessibility
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Facilitated secure access by Okta groups, granting essential permissions to nearly 10 teams weekly
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!--span class="qualification__line"></span> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 3 ====================-->
+                        <div class="qualification__content" data-content id="leadership">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Training & Placement Coordinator</h3>
+                                    <span class="qualification__subtitle">Gujarat Technological University - India</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        April 2018 - May 2019
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Maintain and exchange all the placement requirements with fellow classmates
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Organize events which could aid to students’ placement like mock interviews and group discussions
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Maintain latest student data to share with recruiters
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Contact recruiters to visit for campus drive
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Manage recruitement drives for students & recruiters
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Graduate Teaching Assistant, Program Structure & Algorithms</h3>
+                                    <span class="qualification__subtitle">Northeastern University - United States (multiple campuses)</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        April 2023 - August 2023
+                                    </div>
+    
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Collaborate with professor and other TAs to ensure the smooth functioning of the course
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Hold office hours to provide personalized guidance and support on course concepts and assignments
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Conduct fair and consistent grading of student assignments, offer constructive feedback when required to foster academic growth
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Balanced TA duties with personal academics, showcasing strong organizational skills
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">
+
+                                <div>
+                                    <h3 class="qualification__title">Campus Student Ambassador</h3>
+                                    <span class="qualification__subtitle">Northeastern University - United States (SF & SJ campuses)</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        April 2023 - May 2024
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Represent the student voice and build community as a student leader on the Student Services team
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Organize co-curricular programs, workshops, and cultural events
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Connect students to campus and university resources
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Promote an inclusive and diverse environment to support all students
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Contribute to social media engagement and content development
+                                    </div>
+                                    <div class="qualification__detail">
+                                        <i class="uil uil-arrow-right"></i>
+                                        Participate in professional development programs and regular meetings
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!--span class="qualification__line"></span> -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                
+            </section>
+
+            <!--==================== PROJECT ====================-->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Relevant projects</span>
+
+                <div class="projects__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PROJECT 1 ====================-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/plane.jpg" alt="" class="projects__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Airline Reservation Management System</h3>
+                                <p class="projects__description">
+                                    <i class="uil uil-arrow-right"></i>
+                                    Performed normalization and designed Enterprise Relationship Diagram (ERD) based on a set of business rules
+                                </p>
+
+                                <p class="projects__description"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Led the development of an efficient Airline Reservation Management System using MSSQL
+                                </p>
+
+                                <p class="projects__description"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Designed complex SQL queries to analyze flight reservations, fares, student discounts, travel insurance policies, and much more
+                                </p>
+
+                                <p class="projects__descriptionLast"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Implemented business rules and constraints through DDL statements and triggers
+                                </p>
+                                <a href="https://github.com/ShivaniShah06/Airline-Reservation-Management-System" target="_blank" class="button button--flex button--small projects__button">
+                                    Show
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECT 2 ====================-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/LifeExpectancy.jpg" alt="" class="projects__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Life Expectancy prediction using Linear Regression</h3>
+                                <p class="projects__description">
+                                    <i class="uil uil-arrow-right"></i>
+                                    Performed Exploratory Data Analysis to clean the dataset, find the outliers, and understand the dataset through visualization
+                                </p>
+
+                                <p class="projects__description"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Identified & addressed outliers using statistical techniques
+                                </p>
+
+                                <p class="projects__description"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Preprocessed the data to define independent dataset (X) and target variable (Y) and divide them into training and testing datasets for model training
+                                </p>
+
+                                <p class="projects__description"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Utilized linear regression model to predict life expectancy by leveraging available data from 2000-2015 for a given country in the predictive model
+                                </p>
+
+                                <p class="projects__descriptionLast"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Evaluated model performance for accuracy and reliability
+                                </p>
+
+                                <a href="https://colab.research.google.com/drive/1hIqfhSo0siheSvO-G__AcgvpEa2TxoAe?usp=sharing" target="_blank" class="button button--flex button--small projects__button">
+                                    Show
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECT 3 ====================-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/NumberRecognition.jpg" alt="" class="projects__img">
+
+                            <div class="projects__data">
+                                <h3 class="projects__title">Handwritten number recognition using JavaFX GUI & TensorFlow</h3>
+                                <p class="projects__description">
+                                    <i class="uil uil-arrow-right"></i>
+                                    Designed and developed a user-friendly GUI using JavaFX which enabled users to draw digits from 0 to 9 on a canvas
+                                </p>
+
+                                <p class="projects__description"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Implemented features to save, erase, and clear the drawn digits from the canvas
+                                </p>
+
+                                <p class="projects__description"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Developed a digit-recognition model using the TensorFlow library in Python
+                                </p>
+
+                                <p class="projects__description"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Integrated a Python script into the application and set it to be triggered when the user saves an image snapshot from the canvas
+                                </p>
+
+                                <p class="projects__descriptionLast"> 
+                                    <i class="uil uil-arrow-right"></i>
+                                    Utilized the script to predict the digit drawn by the user on the canvas using the same recogition model
+                                </p>
+
+                                <a href="https://github.com/ShivaniShah06/Hand-Written-Number-Recognition-Using-JavaFX-GUI-and-Tensorflow" target="_blank" class="button button--flex button--small projects__button">
+                                    Show
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== CERTIFICATIONS ====================-->
+            <section class="certifications section" id="certifications">
+                <h2 class="section__title">Certifications</h2>
+                <span class="section__subtitle">What certifications I have</span>
+
+                <div class="certifications__container container grid">
+                    <!--==================== CERTIFICATIONS 1 ====================-->
+                    <div class="certifications__content">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
+                                <path fill="#212121" d="M13.432 18L13.5 28 15 28 15 18zM32 18v10.005h1.805c0 0 .015-3.609.035-3.608.019.001 2.69 3.743 2.716 3.733.027-.01 1.599-.576 1.599-.59 0-.014-2.684-3.441-2.684-3.448 0-.006 2.251-2.509 2.231-2.529-.06-.06-1.281-.586-1.314-.566-.018.011-2.582 2.796-2.582 2.796V18H32zM2.099 21.05c-.651.137-1.259.552-1.509 1.031-.23.44-.227 1.043.007 1.491.16.305.625.735 1.348 1.246.782.552 1.078.832 1.153 1.092.111.385-.06.752-.434.931-.187.089-.27.101-.603.086-.433-.02-.729-.132-1.172-.446-.14-.099-.269-.167-.285-.152-.016.016-.155.224-.311.466L.01 27.23l.109.081c.06.045.248.158.422.255 1.187.66 2.944.555 3.835-.229.475-.418.697-1.025.602-1.647-.089-.582-.409-.965-1.417-1.695-.791-.573-1.166-.889-1.253-1.059-.167-.326-.049-.643.307-.827.178-.092.251-.102.608-.087.347.015.453.041.741.179l.335.161.263-.41c.144-.224.252-.426.239-.445-.048-.071-.598-.299-.941-.391C3.402 20.995 2.521 20.961 2.099 21.05zM10.031 21.935c.788.369 1.212 1.528 1.041 2.852-.06.467-.227 1.032-.383 1.296-.159.268-.463.56-.705.675-.444.212-1.107.13-1.523-.187-.577-.442-.893-1.524-.772-2.649.111-1.032.483-1.684 1.133-1.986C9.156 21.781 9.7 21.781 10.031 21.935zM9.313 20.784c-.472.106-.85.319-1.254.705l-.366.35V21H6.814 6v5 5h1.693v-4.08l.324.319c.592.583 1.287.814 2.101.701.532-.074.904-.21 1.3-.475 1.111-.743 1.721-2.221 1.554-3.771-.158-1.467-.912-2.484-2.128-2.871C10.531 20.724 9.679 20.702 9.313 20.784zM16.258 21c0 0 .055 5.284.091 5.438.136.583.525 1.137.964 1.374.403.218.727.287 1.333.284.861-.004 1.386-.211 2.027-.8L21 27v1h1.742l-.023-7H21c0 0 .025 4.347 0 4.5-.1.611-.573 1.109-1.053 1.27-.287.096-.786.174-1.086.127C18.549 26.848 18.033 26.507 18 26v-4.977L16.258 21zM30.742 28c0 0-.055-5.284-.091-5.438-.136-.583-.525-1.137-.964-1.374-.403-.218-.727-.287-1.333-.284-.861.004-1.386.211-2.027.8L26 22v-1h-1.742l.023 7H26c0 0-.025-4.347 0-4.5.1-.611.573-1.109 1.053-1.27.287-.096.661-.17 1.086-.127C28.566 22.147 29.031 22.535 29 23v4.977L30.742 28z"></path><path fill="#77b539" fill-rule="evenodd" d="M40 20.5L40 22 46 24 40 26.601 40 28 47 25 47 23z" clip-rule="evenodd certifications__icon">
+                                </path>
+                            </svg>
+                            <h3 class="certifications__title">Splunk <br> Core Certified <br> User</h3>
+                        </div>
+
+                        <a href="https://www.credly.com/badges/2bc31763-d862-4796-aee5-6827976d0f7d/linked_in_profile" target="_blank" class="button button--flex button--small certifications__button">
+                            Show
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+
+                    </div>
+                    <!--==================== CERTIFICATIONS 2 ====================-->
+                    <div class="certifications__content">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
+                                <path fill="#212121" d="M13.432 18L13.5 28 15 28 15 18zM32 18v10.005h1.805c0 0 .015-3.609.035-3.608.019.001 2.69 3.743 2.716 3.733.027-.01 1.599-.576 1.599-.59 0-.014-2.684-3.441-2.684-3.448 0-.006 2.251-2.509 2.231-2.529-.06-.06-1.281-.586-1.314-.566-.018.011-2.582 2.796-2.582 2.796V18H32zM2.099 21.05c-.651.137-1.259.552-1.509 1.031-.23.44-.227 1.043.007 1.491.16.305.625.735 1.348 1.246.782.552 1.078.832 1.153 1.092.111.385-.06.752-.434.931-.187.089-.27.101-.603.086-.433-.02-.729-.132-1.172-.446-.14-.099-.269-.167-.285-.152-.016.016-.155.224-.311.466L.01 27.23l.109.081c.06.045.248.158.422.255 1.187.66 2.944.555 3.835-.229.475-.418.697-1.025.602-1.647-.089-.582-.409-.965-1.417-1.695-.791-.573-1.166-.889-1.253-1.059-.167-.326-.049-.643.307-.827.178-.092.251-.102.608-.087.347.015.453.041.741.179l.335.161.263-.41c.144-.224.252-.426.239-.445-.048-.071-.598-.299-.941-.391C3.402 20.995 2.521 20.961 2.099 21.05zM10.031 21.935c.788.369 1.212 1.528 1.041 2.852-.06.467-.227 1.032-.383 1.296-.159.268-.463.56-.705.675-.444.212-1.107.13-1.523-.187-.577-.442-.893-1.524-.772-2.649.111-1.032.483-1.684 1.133-1.986C9.156 21.781 9.7 21.781 10.031 21.935zM9.313 20.784c-.472.106-.85.319-1.254.705l-.366.35V21H6.814 6v5 5h1.693v-4.08l.324.319c.592.583 1.287.814 2.101.701.532-.074.904-.21 1.3-.475 1.111-.743 1.721-2.221 1.554-3.771-.158-1.467-.912-2.484-2.128-2.871C10.531 20.724 9.679 20.702 9.313 20.784zM16.258 21c0 0 .055 5.284.091 5.438.136.583.525 1.137.964 1.374.403.218.727.287 1.333.284.861-.004 1.386-.211 2.027-.8L21 27v1h1.742l-.023-7H21c0 0 .025 4.347 0 4.5-.1.611-.573 1.109-1.053 1.27-.287.096-.786.174-1.086.127C18.549 26.848 18.033 26.507 18 26v-4.977L16.258 21zM30.742 28c0 0-.055-5.284-.091-5.438-.136-.583-.525-1.137-.964-1.374-.403-.218-.727-.287-1.333-.284-.861.004-1.386.211-2.027.8L26 22v-1h-1.742l.023 7H26c0 0-.025-4.347 0-4.5.1-.611.573-1.109 1.053-1.27.287-.096.661-.17 1.086-.127C28.566 22.147 29.031 22.535 29 23v4.977L30.742 28z"></path><path fill="#77b539" fill-rule="evenodd" d="M40 20.5L40 22 46 24 40 26.601 40 28 47 25 47 23z" clip-rule="evenodd certifications__icon">
+                                </path>
+                            </svg>
+                            <h3 class="certifications__title">Splunk <br> Core Certified <br>Power User</h3>
+                        </div>
+
+                        <a href="https://www.credly.com/badges/a4f01b6c-bca6-42a0-8cf3-8c60bae7a47c/linked_in_profile" target="_blank" class="button button--flex button--small certifications__button">
+                            Show
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+
+                    </div>
+
+                    <!--==================== CERTIFICATIONS 3 ====================-->
+                    <div class="certifications__content">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
+                                <path fill="#212121" d="M13.432 18L13.5 28 15 28 15 18zM32 18v10.005h1.805c0 0 .015-3.609.035-3.608.019.001 2.69 3.743 2.716 3.733.027-.01 1.599-.576 1.599-.59 0-.014-2.684-3.441-2.684-3.448 0-.006 2.251-2.509 2.231-2.529-.06-.06-1.281-.586-1.314-.566-.018.011-2.582 2.796-2.582 2.796V18H32zM2.099 21.05c-.651.137-1.259.552-1.509 1.031-.23.44-.227 1.043.007 1.491.16.305.625.735 1.348 1.246.782.552 1.078.832 1.153 1.092.111.385-.06.752-.434.931-.187.089-.27.101-.603.086-.433-.02-.729-.132-1.172-.446-.14-.099-.269-.167-.285-.152-.016.016-.155.224-.311.466L.01 27.23l.109.081c.06.045.248.158.422.255 1.187.66 2.944.555 3.835-.229.475-.418.697-1.025.602-1.647-.089-.582-.409-.965-1.417-1.695-.791-.573-1.166-.889-1.253-1.059-.167-.326-.049-.643.307-.827.178-.092.251-.102.608-.087.347.015.453.041.741.179l.335.161.263-.41c.144-.224.252-.426.239-.445-.048-.071-.598-.299-.941-.391C3.402 20.995 2.521 20.961 2.099 21.05zM10.031 21.935c.788.369 1.212 1.528 1.041 2.852-.06.467-.227 1.032-.383 1.296-.159.268-.463.56-.705.675-.444.212-1.107.13-1.523-.187-.577-.442-.893-1.524-.772-2.649.111-1.032.483-1.684 1.133-1.986C9.156 21.781 9.7 21.781 10.031 21.935zM9.313 20.784c-.472.106-.85.319-1.254.705l-.366.35V21H6.814 6v5 5h1.693v-4.08l.324.319c.592.583 1.287.814 2.101.701.532-.074.904-.21 1.3-.475 1.111-.743 1.721-2.221 1.554-3.771-.158-1.467-.912-2.484-2.128-2.871C10.531 20.724 9.679 20.702 9.313 20.784zM16.258 21c0 0 .055 5.284.091 5.438.136.583.525 1.137.964 1.374.403.218.727.287 1.333.284.861-.004 1.386-.211 2.027-.8L21 27v1h1.742l-.023-7H21c0 0 .025 4.347 0 4.5-.1.611-.573 1.109-1.053 1.27-.287.096-.786.174-1.086.127C18.549 26.848 18.033 26.507 18 26v-4.977L16.258 21zM30.742 28c0 0-.055-5.284-.091-5.438-.136-.583-.525-1.137-.964-1.374-.403-.218-.727-.287-1.333-.284-.861.004-1.386.211-2.027.8L26 22v-1h-1.742l.023 7H26c0 0-.025-4.347 0-4.5.1-.611.573-1.109 1.053-1.27.287-.096.661-.17 1.086-.127C28.566 22.147 29.031 22.535 29 23v4.977L30.742 28z"></path><path fill="#77b539" fill-rule="evenodd" d="M40 20.5L40 22 46 24 40 26.601 40 28 47 25 47 23z" clip-rule="evenodd certifications__icon">
+                                </path>
+                            </svg>
+                            <h3 class="certifications__title">Splunk <br> Enterprise Certified <br> Admin</h3>
+                        </div>
+
+                        <a href="https://www.credly.com/badges/e131b145-1e25-4524-97a2-2e3984e93629/linked_in_profile" target="_blank" class="button button--flex button--small certifications__button">
+                            Show
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">You have an exciting opportunity?</h2>
+                            <p class="project__description">I am open to discussing new opportunities that allow me to expand my skillset and embrace emerging technologies.</p>
+                            <a href="#contact" class="button button--flex button--white">
+                                Contact Me
+                                <i class="uil uil-message project__icon button__icon"></i>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">shivanishahwork2@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Fremont, California, United States</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Message sent. Shivani will get back to you soon!</p>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Shivani</h1>
+                        <span class="footer__subtitle">Site Reliability Engineer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="footer__link">Contactme</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__social">
+                        <a href="https://www.linkedin.com/in/shivani-shah612" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/ShivaniShah06" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Shivanishah. All rights reserved</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
